@@ -1,18 +1,11 @@
-import { SafeAreaView, Text } from 'react-native';
-import styled from 'styled-components/native';
+import { SafeAreaView } from 'react-native';
 
-const Button = styled.TouchableOpacity`
-  background-color: #ff0000;
-  padding: 10px;
-`;
+import Login from './screens/login';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <Text>Testando</Text>
-      <Button>
-        <Text>Testando</Text>
-      </Button>
+      <Login />
     </SafeAreaView>
   );
 };
