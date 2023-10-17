@@ -1,4 +1,3 @@
-import { Text, TextInput, View } from 'react-native';
 import { TextInputProps } from 'react-native/types';
 
 import { Container } from './style';
