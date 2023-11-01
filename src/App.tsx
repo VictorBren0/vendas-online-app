@@ -1,6 +1,6 @@
 import { SafeAreaView } from 'react-native';
 
-import Login from './screens/login';
+import Login from './screens/Login';
 
 const App = () => {
   return (
