@@ -13,7 +13,7 @@ export default function Login() {
       <Container>
         <Text>Login</Text>
         <Input />
-        <Button margin='50px' title="Entrar" onPress={handleOnPress}/>
+        <Button margin="50px" title="Entrar" onPress={handleOnPress} />
       </Container>
     </View>
   );
