@@ -1,3 +1,3 @@
 export enum textVariants {
-    TITLE = "TITLE",
+  TITLE = 'TITLE',
 }

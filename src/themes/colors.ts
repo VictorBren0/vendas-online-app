@@ -1,7 +1,7 @@
 export const grayTheme = {
-    gray80: '#B1BBC2'
+  gray80: '#B1BBC2',
 };
 
 export const neutralTheme = {
-    white: '#FFFFFF'
+  white: '#FFFFFF',
 };
