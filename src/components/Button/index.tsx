@@ -34,7 +34,7 @@ export default function Button({
       {loading ? (
         <ActivityIndicator size={'large'} color={theme.colors.neutralTheme.white} />
       ) : (
-        <Text variant={textVariants.BUTTON_BOLD} color={color}>
+        <Text variant={textVariants.BUTTON_SEMIBOLD} color={color}>
           {title}
         </Text>
       )}
