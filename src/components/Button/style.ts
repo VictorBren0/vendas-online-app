@@ -32,3 +32,7 @@ export const ButtonSecondary = styled(ButtonContainer)<ButtonContainerProps>`
   border-width: 1px;
   border-color: ${theme.colors.mainTheme.primary};
 `;
+
+export const ButtonDisabled = styled(ButtonContainer)<ButtonContainerProps>`
+  background-color: ${theme.colors.grayTheme.gray100};
+`;
