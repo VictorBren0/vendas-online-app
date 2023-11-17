@@ -14,24 +14,32 @@ interface ButtonProps extends TouchableOpacityProps {
   onPress?: () => void;
 }
 
-export default function Button({ title, variant, loading, disabled, onPress, margin, ...props }: ButtonProps) {
+export default function Button({
+  title,
+  variant,
+  loading,
+  disabled,
+  onPress,
+  margin,
+  ...props
+}: ButtonProps) {
   const handleOnPress = () => {
     if (!loading && !disabled && onPress) {
       onPress();
     }
-  }
-  
+  };
+
   const renderText = (color: string) => (
     <>
-    {loading ? (
-      <ActivityIndicator size={'large'} color={theme.colors.neutralTheme.white} />
-    ) : (
-    <Text variant={textVariants.BUTTON_BOLD} color={color}>
-      {title}
-    </Text>
-    )}
+      {loading ? (
+        <ActivityIndicator size={'large'} color={theme.colors.neutralTheme.white} />
+      ) : (
+        <Text variant={textVariants.BUTTON_BOLD} color={color}>
+          {title}
+        </Text>
+      )}
     </>
-  )
+  );
 
   if (disabled) {
     return (
